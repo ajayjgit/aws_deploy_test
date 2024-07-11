@@ -32,6 +32,8 @@
         .btn-primary, .btn-secondary {
             animation: growIn 1s 2s ease-out forwards;
             opacity: 0;
+            color: #000;
+            background-color: #000;
         }
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -45,14 +47,18 @@
             from { transform: scale(0); }
             to { transform: scale(1); }
         }
+        .portfolio-link {
+            text-decoration: none;
+            color: #000;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Animated Web Page</h1>
+        <h1>Welcome to My AWS DEPLOYMENT Visit mY Portfolio</h1>
         <p>This is a simple one-page HTML with Bootstrap and CSS animations for AWS deployment.</p>
-        <a href="https://aws.amazon.com" class="btn btn-primary" target="_blank">Learn more about AWS</a>
-        <a href="https://aj-portfolio-ten.vercel.app/" class="btn btn-secondary" target="_blank">Visit My Portfolio</a>
+  
+        <a href="https://aj-portfolio-ten.vercel.app/" class="btn btn-primary portfolio-link " target="_blank"> <h1 style="background-color: #000;">Visit My Portfolio </h1></a>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
